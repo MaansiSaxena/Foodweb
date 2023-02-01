@@ -1,0 +1,102 @@
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    background-color: #24262b;
+    height: 80px;
+   
+}
+.nav_hover:hover{
+    color: orange!important;
+}
+.carousel-inner{
+    max-height:400px;
+}
+.navoption {
+    display: flex;  /* row*/
+    list-style: none; /* bullet remove*/
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #bbbbbb;
+
+}
+.navoption li a {
+    padding: 20px; 
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #bbbbbb;
+    
+}
+.navbar img{
+    padding-left: 20px;
+}
+.cards{
+    padding: 10px;
+    background-color: #24262b;
+    font-family: 'Poppins', sans-serif;
+}
+.emoji{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-style: bold;
+    text-decoration: wavy;
+    background-color: grey;
+    color: whitesmoke;
+    
+}
+.charitimg{
+    margin: 10px 10px 10px 10px;
+}
+.text{
+    text-align: center;
+    margin: 120px 30px 30px 60px;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    padding: 14px;
+}
+.text h1{
+    font-style: italic;
+    font-weight: 300px;
+}
+.imgtext{
+    display: flex;
+    background-color: #bbbbbb;
+}
+
+/* responsive  */
+@media only screen and (max-width: 600px) {
+    div#carouselExampleSlidesOnly {
+        width: 710px;
+        /* width: fit-content; */
+    }
+    .navbar {
+        width: 710px;
+    }
+    body {
+        width: 710px;
+    }
+    .col-sm {
+        max-width: 50%;
+        padding-top: 20px;
+    }
+    section{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .imgtext{
+        display: block;
+    }
+    .charitimg{
+        text-align: center;
+    }
+    .n_image{
+        width: 90%;
+    }
+  }
+
+  /* carosal css */
+  

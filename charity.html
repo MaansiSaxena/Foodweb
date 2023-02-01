@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity</title>
+</head>
+
+<body>
+    <script src="charity.js"></script>
+    <style>
+        body {
+            background-color: rgb(137, 202, 180);
+            text-align: center;
+            margin-top: 30px;
+            padding: 6px;
+            padding: 50px;
+
+        }
+        .table{
+            padding: 50px;
+        }
+    </style>
+    <div class="table">
+        <form action="noaction.php">
+            <label for="name">Enter your Name</label>
+            <input type="text" id="name"> <br><br>
+            <label for="add">Enter your address</label>
+            <input type="text" id="add"> <br><br>
+            <label for="mob">Mobile No.   </label>
+            <input type="text" id="mob"> <br> <br>
+            <label for="plate">plates available</label>
+            <input type="text" id="plate"> <br> <br>
+            <button type="button" id="charity_button" onclick="funn()">Need</button> <br><br>
+
+            
+        </form>
+    </div>
+    <div>
+        <button onclick="getLocation()">Your Current Co-ordinates....</button>
+            <p id="demo"></p>
+    </div>
+</body>
+
+</html>

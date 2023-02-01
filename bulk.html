@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulk Order</title>
+</head>
+<script src="cater.js">
+
+</script>
+
+<style>
+    body{
+        background-color: grey  ; 
+    }
+    .checkbox{
+        text-align: center;
+        font-family:  'Poppins', sans-serif;
+        font-size: 1.3rem;
+        color: whitesmoke;
+        padding-top: 50px;
+    }
+    .headingg{
+        font-family:  'Poppins', sans-serif;
+        text-align: center;
+        color: brown;
+        margin-top: 50px;
+    }
+    
+</style>
+<body>
+    <div class="headingg">
+        <h1>Choose your Purpose.</h1>
+    </div>
+    <div class="checkbox">
+        <form action="noaction.php" id="occass">
+            <input type="checkbox" id="resto1" name = "cafe"  value="1">
+            <label for="resto1"> Fresher's Party  </label><br>
+            <input type="checkbox" id="resto2" name = "cafe"  value="2">
+            <label for="resto2"> Birthday Celebrate</label><br>
+            <input type="checkbox" id="resto3"name = "cafe"  value="3">
+            <label for="resto3"> Farewell party    </label><br>
+            <input type="checkbox" id="resto4" name = "cafe" value="4">
+            <label for="resto4"> family Function     </label><br>
+        </form>
+
+        <div class="button1">
+            <button onclick="Selection()" >Submit</button>
+        </div>
+
+        <p id="fresher" style="display:none">
+            You can Contact the following Caters:<br><br><br>
+            Cater1  : Invitation Ceremonial <br>
+            Contact: 99678334526 <br><br>
+            Cater2  : Spice Route Hospitiality <br>
+            Contact: 9234571822 <br><br>
+            Cater3  : FNV Caterers <br>
+            Contact: 9811304445 <br><br>
+        </p>
+
+        <p id="bday" style="display:none">
+            You can Contact the following Caters:<br><br><br>
+            Cater  : Invitation Ceremonial <br>
+            Contact: 99678334526 <br><br>
+            Cater  : Spice Route Hospitiality <br>
+            Contact: 9234571822 <br><br>
+            Cater  : FNV Caterers <br>
+            Contact: 9811304445 <br><br>
+        </p>
+
+
+        <p id="fwell" style="display:none">
+            You can Contact the following Caters:<br><br><br>
+            Cater  : Invitation Ceremonial <br>
+            Contact: 99678334526 <br><br>
+            Cater  : Spice Route Hospitiality <br>
+            Contact: 9234571822 <br><br>
+            Cater  : FNV Caterers <br>
+            Contact: 9811304445 <br><br>
+        </p>
+    
+</body>
+</html>

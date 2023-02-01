@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online order</title>
+</head>
+<body>
+    <script src="selection.js"></script>
+    <style>
+        body{
+            background: url('cafe.jpg');    
+        }
+        .checkbox{
+            font-family:  'Poppins', sans-serif;
+            font-size: 1.3rem;
+            color: beige;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .heading{
+            text-align: center;
+            color: beige;
+        }
+        .button1{
+            margin-top: 40px;
+            padding: 15px 15px;
+
+        }
+    </style>
+    <div class="heading">
+        <h1>Select your favourite restaurant here!!</h1>
+    </div>
+    <div class="checkbox">
+        <form action="noaction.php" id="list1">
+            <input type="checkbox" id="resto1" name = "cafe" value="1">
+            <label for="resto1"> Cafe Coffee Day  </label><br>
+            <input type="checkbox" id="resto2" name = "cafe" value="2">
+            <label for="resto2"> LaChef restaurant</label><br>
+            <input type="checkbox" id="resto3" name = "cafe" value="3">
+            <label for="resto3"> Ganpat chat bhandar </label><br>
+            <input type="checkbox" id="resto4" name = "cafe" value="4">
+            <label for="resto4"> Fun & Food Village  </label><br>
+            <input type="checkbox" id="resto5" name = "cafe" value="5">
+            <label for="resto5"> Punjabi delights </label><br>
+            <input type="checkbox" id="resto6" name = "cafe" value="6">
+            <label for="resto6"> Moti Mahal Delux </label><br>
+            <input type="checkbox" id="resto7" name = "cafe" value="7">
+            <label for="resto7"> Cafe Comics Day   </label><br>
+
+        </form>
+        <div class="button1">
+            <button onclick="Selection()" >Submit</button>
+        </div>
+          
+    </div>
+</body>
+</html>
